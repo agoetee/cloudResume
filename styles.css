@@ -1,0 +1,22 @@
+body {
+    margin: 5em 15rem 1em 15rem;
+}
+
+.basicText {
+    text-align: center;
+}
+.name {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+.basicSmall {
+    font-size: 1.2em;
+}
+.location {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.email {
+    margin-top: 0.5em;
+}

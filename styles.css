@@ -1,5 +1,6 @@
 body {
     margin: 5em 15rem 1em 15rem;
+    font-size: 1.2em;
 }
 
 .basicText {
@@ -19,4 +20,36 @@ body {
 }
 .email {
     margin-top: 0.5em;
+}
+.sectionHead {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 2px solid black;
+    padding-left: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+.project-title {
+    margin-bottom: 0px;
+}
+.project-unorder {
+    margin-top: 0px;
+}
+ul .second {
+    list-style-type: square;
+} 
+
+.project-title a {
+    text-decoration: none;
+}
+
+.table-bold {
+    font-weight: bold;
+}
+
+/* .exp-table-padding td{
+    padding: 0 15px;
+} */
+
+.skills-container {
+    display: flex;
 }

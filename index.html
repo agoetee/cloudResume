@@ -18,16 +18,16 @@
     <!-- Basic informtion section -->
 
     <!-- Projects section -->
-    <section>
+    <section class="project-canvass">
         <h2 class="sectionHead">PROJECTS</h2>
-        <h3><a href="#">Cloud Resume Challenge</a></h3>
-        <ul>
+        <h3 class="project-title"><i><a href="#" >Cloud Resume Challenge</a></i></h3>
+        <ul class="project-unorder second">
             <li>Created a static website and hosted via S3 utilising route 53</li>
             <li>Configured a lambda function</li>
             <li>Automated testing using Terraform and automated development pipeline using github Actions</li>
         </ul>
-        <h3><a href="#">zenfiber.org Website</a></h3>
-        <ul>
+        <h3 class="project-title"><i><a href="#" >zenfiber.org Website</a></i></h3>
+        <ul class="project-unorder">
             <li>Created a static website hosted via Heroku</li>
             <li>Linked a Domain Name to this website</li>
             <li>Continously update based on Client preferences</li>
@@ -36,20 +36,20 @@
     <!-- Projects section -->
 
     <!-- Experience section -->
-    <section>
+    <section class="experience-canvass">
         <h2 class="sectionHead">EXPERIENCE</h2>
         <div>
-            <table>
-            <tr>
-                <td>October 2022 to Date</td>
-                <td>Zen Fibercom Ltd, Accra(Vodafone Contractor)</td>
-            </tr>
-            <tr>
-                <td>Position</td>
-                <td>Website Developer</td>
-            </tr>
+            <table class="exp-table-padding table-bold">
+                <tr>
+                    <td width="50%"> October 2022 to Date</td>
+                    <td>Zen Fibercom Ltd, Accra(Vodafone Contractor)</td>
+                </tr>
+                <tr>
+                    <td><em>Position</em></td>
+                    <td><em>Website Developer</em></td>
+                </tr>
             </table>
-            <p>Developed the website from scratch and hosted it to be accessible on the web</p>
+            <p class="role-sum">Developed the website from scratch and hosted it to be accessible on the web</p>
             <ul>
                 <li>Developed the website according to preference from my boss/client</li>
                 <li>Hosted and connected to a Domain name</li>
@@ -59,17 +59,13 @@
         </div>
         
         <div>
-            <table>
-            <tr>
-                <td>November 2019 to Date</td>
-                <td>Zen Fibercom Ltd, Accra(Vodafone Contractor)</td>
-            </tr>
-            <tr>
-                <td>Position</td>
-                <td>Health and safety Manager</td>
-            </tr>
+            <table class="exp-table-padding table-bold">
+                <tr>
+                    <td width="50%">November 2019 to Date</td>
+                    <td>Health and safety Manager</td>
+                </tr>
             </table>
-            <p>Helped improve the overall safety culture of the organisation, therefore teams work more collaboratively</p>
+            <p class="role-sum">Helped improve the overall safety culture of the organisation, therefore teams work more collaboratively</p>
             <ul>
                 <li>Perform periodic inspections to identify safety risks on site</li>
                 <li>Identify safety training needs and regularly organise trainings for employees and contractors</li>
@@ -80,17 +76,17 @@
         </div>
 
         <div>
-            <table>
-            <tr>
-                <td>September 2015 to July 2018</td>
-                <td>Melchia Investments Ghana Ltd, Accra</td>
-            </tr>
-            <tr>
-                <td>Position</td>
-                <td>District Team Leader</td>
-            </tr>
+            <table class="exp-table-padding table-bold">
+                <tr>
+                    <td width="50%">September 2015 to July 2018</td>
+                    <td>Melchia Investments Ghana Ltd, Accra</td>
+                </tr>
+                <tr>
+                    <td><em>Position</em></td>
+                    <td><em>District Team Leader</em></td>
+                </tr>
             </table>
-            <p>Lead a team to collect household data in the district and completed the task within the time-frame</p>
+            <p class="role-sum">Lead a team to collect household data in the district and completed the task within the time-frame</p>
             <ul>
                 <li>Received tablets and other logistics from head office</li>
                 <li>Supervised the installation of mobile apps and updates on tablets</li>
@@ -102,17 +98,15 @@
     <!-- Experience section -->
 
     <!-- Education section -->
-    <section>
+    <section class="education-canvass">
         <h2 class="sectionHead">EDUCATION</h2>
         <div>
-            <table>
+            <table class="table-bold">
                 <tr>
                     <td>University of Ghana, Legon</td>
-                    <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>Bachelor of Arts</td>
-                    <td>Geography and Psychology</td>
+                    <td><em>BA: Geography and Psychology</em></td>
                 </tr>
             </table>
         </div>
@@ -122,20 +116,33 @@
     <!-- Skills and Certification section -->
     <section>
         <h2 class="sectionHead">skills and Certification</h2>
-        <div>
-            <h4>Key Skills</h4>
-            <ul>
-                <li>Python</li>
-                <li>Javascript</li>
-                <li>GCP</li>
-                <li>Terraform</li>
-                <i>Linux</i>
-            </ul>
+        <div class="skills-container">
+            <div class="skill-text">
+                <h4>Key Skills</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>GCP</li>
+                    <li>Terraform</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+            
+            <div class="link-container">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#"><i class="bi bi-github"></i></a></li>
+                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                </ul>   
+            </div>
+
+            <div class="cert-img">
+                <h4>Certification</h4>
+                <img src=".\img\aws-certified-cloud-practitioner.png" alt="Practitioner Badge">
+            </div>
+            
         </div>
-        <div>
-            <h4>Certification</h4>
-            <img src=".\img\aws-certified-cloud-practitioner.png" alt="Practitioner Badge">
-        </div>
+        
     </section>
     <!-- Skills and Certification section -->
     
@@ -149,14 +156,15 @@
 
     <!-- Links section -->
     <section>
-        <div>
-            <a href="#"><i class="bi bi-github"></i></a>
+        <div class="link-container">
+            <div>
+                <a href="#"><i class="bi bi-github"></i></a>
+            </div>
+            <div>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
         </div>
-        <div>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-        </div>
-        
-        
+                
 
     </section>
     <!-- Links section -->

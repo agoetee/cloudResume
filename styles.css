@@ -50,6 +50,39 @@ ul .second {
     padding: 0 15px;
 } */
 
+.unbold, .nobold {
+    font-weight: normal;
+}
+
 .skills-container {
     display: flex;
+    justify-content: space-around;
+}
+
+.skill-list {
+    list-style-type: square;
+    padding-left: 1em;
+}
+
+.no-list-style {
+    list-style: none;
+    padding: 0;
+}
+
+.link-icon {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+.link-list {
+    margin-bottom: 0.3em;
+}
+
+.footer {
+    text-align: center;
+    background-color: #636161;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 1.2em;
 }
